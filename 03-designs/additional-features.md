@@ -7,24 +7,28 @@ This section outlines premium features beyond the base smart home specification 
 ## Tier 1: Near-Term Practical Upgrades
 
 ### 1.1 Whole-Home Audio System
+
 - **Sonos Era 100** (×4 rooms): ~£199 each = £796 per home
 - Multi-room synchronised audio; Alexa/Google/AirPlay 2 compatible
 - Wi-Fi streaming; no separate hub
 - **Benefit:** Entertainment; ambient music for elderly (cognitive stimulation)
 
 ### 1.2 Smart Garden and Irrigation
+
 - **Eve Aqua Smart Water Controller** (Thread/Matter): ~£99
 - **Gardena Smart Sensor:** ~£59.99
 - Automates garden watering based on soil moisture and weather data
 - **Benefit:** Water conservation; reduced maintenance for families
 
 ### 1.3 Premium Security Monitoring
+
 - **Ring Protect Pro subscription:** £8/month per household
 - Professional 24/7 monitoring with police dispatch
 - Adds: cellular backup, Alexa Guard Plus, eero network security
 - **Benefit:** Insurance discount uplift from 2–5% to potentially 10–15%
 
 ### 1.4 Home Energy Storage (Battery)
+
 - **Tesla Powerwall 3:** ~£6,500 (unit only; UK pricing)
 - Stores surplus solar energy for use at night
 - Pairs with myenergi eddi and zappi for complete energy independence
@@ -41,6 +45,7 @@ These features represent the cutting edge of smart home automation. While not in
 The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 
 **Specifications:**
+
 - Height: 5'6" (167cm); Weight: 30kg
 - **Soft-Body Design** with **Tendon-Driven Actuators** — safe to operate around children and elderly
 - 22-degree-of-freedom hands for dexterous manipulation (folding laundry, loading dishwashers, preparing ingredients)
@@ -55,6 +60,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 ### 2.2 Specialist Care and Companion Robots (Sheltered Accommodation)
 
 #### Socially Assistive Companion — ElliQ 3.0
+
 - Tabletop companion robot that proactively initiates conversations to combat loneliness
 - Manages medication adherence reminders
 - Facilitates video calls without the resident needing to touch a screen
@@ -62,6 +68,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 - **Benefit:** Addresses loneliness (a significant health risk for elderly people, associated with increased mortality comparable to smoking 15 cigarettes per day — Holt-Lunstad et al.)
 
 #### Physically Assistive "Catch" Robots
+
 - Mobile C-shaped units that follow residents at a discrete distance
 - **3D-LiDAR** predicts stumbles and positions the robot as a physical handrail
 - Claimed to prevent 90% of potential falls
@@ -69,6 +76,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 - **Benefit:** Falls are the leading cause of injury-related death in the over-65s (NHS England). Active fall prevention complements passive fall detection (pendants/watches)
 
 #### PARO Bio-Feedback Seal
+
 - Therapeutic robot for residents with advanced dementia
 - Provides tactile and emotional benefits of a companion animal without hygiene risks
 - Responds to touch, voice, and light
@@ -78,6 +86,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 ### 2.3 Culinary Robot — Sheltered Accommodation
 
 #### Moley Robotic Kitchen
+
 - Ceiling-mounted dual robotic arms with five-finger tactile hands
 - Cooks autonomously from a library of 5,000+ digital recipes
 - Cleans up after cooking
@@ -88,6 +97,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 ### 2.4 Utility Robot Fleet
 
 #### Autonomous Robotic Mower — Husqvarna Ceora
+
 - RTK-GPS positioning (no boundary wires required)
 - Millimetre precision; returns to charging station during rain
 - Can be integrated with estate's motion sensors to avoid mowing while residents use the garden
@@ -95,6 +105,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 - **Benefit:** Eliminates landscaping labour costs for estate maintenance
 
 #### Window Cleaning Drone — Ecovacs Winbot W2 Omni
+
 - Tethered window-climbing robot with spray, mop, and squeegee
 - Battery-powered with safety suction and tether
 - **Pricing:** ~£499
@@ -103,6 +114,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 ### 2.5 Kinetic Spatial Automation (Starter Homes)
 
 #### Ori Living Robotic Furniture Systems
+
 - Entire wall and furniture modules (beds, desks, wardrobes) move on robotic tracks
 - A 2-bedroom starter home can "transform" into a larger entertainment space by retracting bedroom furniture into walls or ceiling
 - Voice-activated or app-controlled room configuration
@@ -110,6 +122,7 @@ The **1X Neo** is a general-purpose humanoid robot designed for household tasks.
 - **Benefit:** Addresses the space constraint of affordable starter homes; maximises usable square footage without increasing build cost
 
 #### Vertical Storage Carousels
+
 - "Modula-style" vertical lifts bring heavy items from high shelves to counter level at voice command
 - Particularly useful in kitchens with limited floor space
 - **Pricing:** ~£3,000–£5,000 per installation

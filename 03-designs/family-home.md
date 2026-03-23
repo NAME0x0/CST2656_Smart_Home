@@ -16,6 +16,7 @@
 **Secondary Hub:** Aeotec Smart Home Hub V3 (SmartThings) — £84.99
 
 **Rationale:**
+
 - Echo Dot Max supports Zigbee, Thread, Matter, and Wi-Fi — handles all device protocols
 - Aeotec Hub adds Z-Wave support for Ring Alarm sensors and provides SmartThings automation engine
 - Amazon Alexa is the most widely supported platform across UK smart home devices
@@ -129,6 +130,7 @@
 ## Network Architecture Notes
 
 The network diagram should show:
+
 - Broadband router (ISP-provided, Wi-Fi 6) as central point
 - Aeotec Hub connected via Ethernet to router (handles Zigbee + Z-Wave)
 - Echo Dot Max on Wi-Fi (handles Thread + Matter)

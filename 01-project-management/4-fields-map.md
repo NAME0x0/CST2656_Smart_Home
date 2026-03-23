@@ -11,6 +11,7 @@
 ## How to Read This Map
 
 Each row maps a task across four fields:
+
 1. **Phase / What** — the deliverable (from the WBS)
 2. **Who** — the named individual responsible
 3. **When** — the target completion week

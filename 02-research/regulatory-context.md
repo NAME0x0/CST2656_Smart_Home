@@ -15,6 +15,7 @@
 ### PSTI Act 2022 (effective April 2024)
 
 All UK-sold smart home devices must:
+
 - Have unique default passwords (no shared defaults)
 - Declare a minimum period for security update support
 - Provide a public vulnerability disclosure policy
@@ -122,6 +123,7 @@ Amendment 2 to BS 7671 requires Arc Fault Detection Devices (AFDDs) on final cir
 ### Response Procedures
 
 #### Device Compromise
+
 1. Isolate the affected device from the network (remove from Wi-Fi / unplug)
 2. Factory reset the device
 3. Change all Wi-Fi passwords and hub credentials
@@ -130,6 +132,7 @@ Amendment 2 to BS 7671 requires Arc Fault Detection Devices (AFDDs) on final cir
 6. Review access logs if available
 
 #### Network Breach
+
 1. Change Wi-Fi password immediately
 2. Review connected devices list on router — remove unknown devices
 3. Enable WPA3 if not already active
@@ -137,6 +140,7 @@ Amendment 2 to BS 7671 requires Arc Fault Detection Devices (AFDDs) on final cir
 5. Update router firmware
 
 #### Telecare System Failure (Sheltered Accommodation — Critical)
+
 1. Tunstall Communicall Vi has built-in **4G cellular backup** — continues operating during broadband outage
 2. Warden performs **manual welfare check** of all residents within 30 minutes of system failure notification
 3. Portable emergency call buttons (battery-powered) distributed to all residents
@@ -144,6 +148,7 @@ Amendment 2 to BS 7671 requires Arc Fault Detection Devices (AFDDs) on final cir
 5. Incident logged and reported to care management
 
 #### Power Failure
+
 1. Battery-powered devices (pendants, watches, smoke alarms, door sensors) continue operating
 2. Tunstall Communicall Vi has battery backup (minimum 24 hours)
 3. Smart heating reverts to boiler's built-in timer

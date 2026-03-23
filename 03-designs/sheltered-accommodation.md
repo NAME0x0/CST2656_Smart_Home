@@ -3,12 +3,14 @@
 ## User Personas
 
 ### Resident: Margaret, 82
+
 **Demographics:** Widow; mild mobility impairment (uses walking frame); early-stage memory difficulties
 **Priorities:** Safety, independence, dignity, social connection, simplicity
 **Fears:** Falling with no one to help; losing independence; complex technology
 **Tech literacy:** Very low — can use a TV remote and landline phone
 
 ### Warden: David, 45
+
 **Demographics:** Full-time resident warden; responsible for 14 residents across the block
 **Priorities:** Immediate alerting for emergencies; visibility of all residents' status; minimal false alarms; reliable overnight monitoring
 **Tech literacy:** Moderate — comfortable with smartphone apps and basic IT
@@ -22,6 +24,7 @@
 **Warden Call System:** Tunstall Communicall Vi (B2B contract)
 
 **Rationale:**
+
 - Echo Show 8 has the largest display of the Echo range, making it suitable for elderly users with visual impairment
 - Video calling (family contact) without needing to operate a smartphone
 - Voice control ("Alexa, call the warden") eliminates need for touchscreen interaction
@@ -93,21 +96,26 @@
 ## Assistive Technology Rationale
 
 ### Fall Prevention and Response
+
 - **Tunstall MyAmie Pendant:** 24/7 wearable; press triggers immediate alert to warden via Communicall Vi
 - **Tunstall Minuet Watch:** Alternative form factor for residents who reject pendants as stigmatising
 - **Withings Sleep Analyser:** Passive overnight monitoring — alerts warden if resident doesn't return to bed (potential fall in bathroom)
 - **IKEA TRADFRI Motion Sensors:** Motion-activated corridor lighting prevents falls in low light; absence of expected motion triggers warden check
 
 ### Medication Adherence
+
 - **Pivotell Advance GSM:** Locked compartments prevent double-dosing; audible alarm at dose time; GSM alerts warden if dose is missed — critical for residents with memory difficulties
 
 ### Social Connection
+
 - **Amazon Echo Show 8:** Voice-activated video calling ("Alexa, call my daughter") — no touchscreen skill required; proactive reminders ("Margaret, would you like to call someone?"); can display family photos as screensaver
 
 ### Cognitive Support
+
 - **GPS Trackers (Stray Star):** For residents with dementia who may wander; geofence alerts warden if resident leaves estate boundary; no subscription
 
 ### Cooking Safety
+
 - **Thermomix TM7 (communal kitchen):** Guided step-by-step cooking on large display; reduces hob/oven fire risk; warden or carer can pre-set recipes; residents participate in food preparation safely
 - **Instant Pot (communal kitchen):** No open flame; pressure/slow cooking with pre-set programmes
 - **Smart plugs on individual kitchen appliances:** Tapo P100 smart plugs allow warden to remotely disable kettle/toaster if resident forgets to turn off

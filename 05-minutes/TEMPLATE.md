@@ -22,21 +22,25 @@
 ## Progress Updates
 
 ### [Member A]
+
 - Completed:
 - In progress:
 - Blockers:
 
 ### [Member B]
+
 - Completed:
 - In progress:
 - Blockers:
 
 ### [Member C]
+
 - Completed:
 - In progress:
 - Blockers:
 
 ### [Member D]
+
 - Completed:
 - In progress:
 - Blockers:

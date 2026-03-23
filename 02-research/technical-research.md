@@ -202,6 +202,7 @@
 | **Temp/Humidity** | Aqara Sensor | £14.99–£19.99 | Zigbee | HomeKit, Google, Alexa via hub |
 
 ### Building Regulations Compliance Note
+
 - **Part B (Fire Safety):** New dwellings require Grade D, Category LD2 alarm systems minimum
 - **Sheltered accommodation:** Requires Grade A, Category L1 full coverage system per BS 5839-6
 - FireAngel Pro Connected (with gateway) or Nest Protect (networked) satisfy Grade D/LD2
@@ -312,6 +313,7 @@
 ## 11. UK Regulatory Context
 
 ### UK GDPR and IoT
+
 - UK GDPR (Data Protection Act 2018) applies to all smart devices collecting personal data
 - **PSTI Act 2022** (effective April 2024): all UK-sold IoT devices must have unique passwords, declare security update period, have vulnerability disclosure policy
 - ICO published draft IoT guidance June 2025
@@ -319,22 +321,26 @@
 - **Practical action:** Housing developer must produce a Smart Home Privacy Notice for all residents at handover
 
 ### Building Regulations Part L (Energy)
+
 - Future Homes Standard targets 75–80% carbon reduction vs 2013 baseline
 - Mandatory TRVs on all radiators (smart TRVs exceed this requirement)
 - Smart thermostats with geofencing contribute to SAP score calculations
 
 ### Building Regulations Part P (Electrical Safety)
+
 - Hardwired installations (EV chargers, wired cameras, solar diverters) require Part P registered electrician
 - Plug-in devices (smart plugs, speakers, robot vacuums) are non-notifiable
 - EV chargers must comply with Electric Vehicles (Smart Charge Points) Regulations 2021
 - Amendment 2 to BS 7671: AFDDs required on final circuits in new residential buildings
 
 ### Ofgem Smart Meter Rollout
+
 - 41 million smart meters installed by end 2025 (71% of domestic meters)
 - New obligation: all remaining premises by end 2030
 - SMETS2 meters support half-hourly data for time-of-use tariffs (works well with zappi/eddi)
 
 ### BS 8300 (Accessibility)
+
 - Applies to communal areas of sheltered accommodation
 - Smart controls must be at accessible heights (750–1200mm above floor)
 - Voice control (Alexa/Google) inherently more accessible than physical switches for some residents

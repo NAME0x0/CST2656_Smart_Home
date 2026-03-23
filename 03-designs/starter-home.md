@@ -15,6 +15,7 @@
 **Primary Hub:** Amazon Echo Pop — £44.99
 
 **Rationale:**
+
 - Cheapest Alexa device with Matter support
 - Alexa has the widest UK smart home device compatibility
 - Matter support means Jordan can add any Matter-certified device in future without needing a new hub
@@ -26,9 +27,11 @@
 ## Two-Tier Approach
 
 ### Essential Tier — Included in base home price
+
 Core smart features that the architectural firm provides as standard with the home.
 
 ### Optional Tier — Available at additional cost to purchaser
+
 Upgrades the buyer can add at their own expense, either at purchase or later.
 
 ---
@@ -100,6 +103,7 @@ Upgrades the buyer can add at their own expense, either at purchase or later.
 ## Why Wi-Fi Only for Essential Tier
 
 For a cost-optimised starter home, Wi-Fi-only devices eliminate the need for any additional hub purchase:
+
 - Hive Thermostat: includes its own hub (£119 all-in)
 - Tapo bulbs and plugs: connect directly to router
 - Ring Wired Doorbell: Wi-Fi direct

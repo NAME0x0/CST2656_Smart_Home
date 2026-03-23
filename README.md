@@ -147,6 +147,7 @@ This repository uses **GitHub Actions** to automate quality checks and report ge
 **Trigger:** Every push to `main` that changes report-related files
 
 **What it does:**
+
 1. Installs [Pandoc](https://pandoc.org/) on a GitHub-hosted runner
 2. Converts `08-final-report/report.md` to **DOCX** (Microsoft Word)
 3. Attempts to build a **PDF** via LaTeX (non-blocking if LaTeX fonts unavailable)
@@ -159,6 +160,7 @@ This repository uses **GitHub Actions** to automate quality checks and report ge
 **Trigger:** Pushing a git tag matching `v*` (e.g., `v1.0-final`)
 
 **What it does:**
+
 1. Builds DOCX and PDF from the latest `report.md`
 2. Creates a **GitHub Release** with auto-generated changelog
 3. Attaches both files as release downloads

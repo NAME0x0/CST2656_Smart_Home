@@ -60,6 +60,7 @@
 ### Note on Sheltered Accommodation Payback
 
 The sheltered accommodation payback cannot be fairly assessed on energy savings alone. The primary financial benefit is **care cost avoidance**:
+
 - UK average residential care home cost: £800–£1,200 per week per person (Age UK, 2025)
 - If smart home technology (fall detection, medication management, warden monitoring) delays even one resident's transition to residential care by 1 year: saving of £41,600–£62,400
 - This single event exceeds the entire smart home investment (£26,037)

@@ -271,6 +271,7 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 | **Report Editor** (shared or rotated) | [Member A or rotated] | Consolidates all sections; enforces formatting (TNR 11, justified); manages references; proofreads | Final formatting; table of contents; reference list |
 
 All members contribute to:
+
 - Weekly meeting attendance and verbal reports
 - Individual reflective diaries
 - Presentation preparation and delivery
@@ -291,16 +292,19 @@ All members contribute to:
 | **Email** | Formal communications with tutor if needed outside seminars | As needed |
 
 ### Decision-Making Protocol
+
 - Decisions are made by group consensus at formal meetings
 - If consensus cannot be reached, the issue is escalated to the seminar tutor
 - All decisions are recorded in meeting minutes and as GitHub Issue comments
 
 ### Document Naming Convention
+
 - All working documents are Markdown files in the GitHub repository
 - Branch naming: `[member-name]/[section]` (e.g., `afsah/family-home-design`)
 - Final report generated via pandoc: `pandoc report.md -o report.docx --reference-doc=template.docx`
 
 ### Individual Contribution Tracking
+
 - Each member works on their assigned files and commits under their own GitHub account
 - `git blame` and GitHub's contributor graph provide auditable evidence of individual work
 - This satisfies the 20% individual contribution marking criterion

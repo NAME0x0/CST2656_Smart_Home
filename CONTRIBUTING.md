@@ -146,6 +146,7 @@ git push origin v0.1-draft
 ```
 
 Use semantic tags:
+
 - `v0.1-draft` — first complete draft
 - `v0.2-reviewed` — after peer review
 - `v1.0-final` — submission version

@@ -117,6 +117,7 @@ Any delay on this chain directly delays the submission date. Tasks off the criti
 ## How to Build This in Your Chosen Tool
 
 ### Microsoft Project / ProjectLibre
+
 1. Enter each task row with the WBS code as a custom field
 2. Set summary tasks as parent rows; indent children beneath
 3. Enter Start/End dates or durations; let the tool calculate
@@ -126,6 +127,7 @@ Any delay on this chain directly delays the submission date. Tasks off the criti
 7. The tool will auto-highlight the critical path in red
 
 ### Excel
+
 1. Create columns: WBS Code | Task Name | Owner | Start Week | End Week | W1 | W2 | W3 | W4 | W5 | W6 | W7 | W8
 2. For each task, fill/colour the cells in the week columns that the task spans
 3. Use different colours per team member
