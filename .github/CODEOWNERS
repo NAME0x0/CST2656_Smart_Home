@@ -4,41 +4,46 @@
 # Each line maps a file pattern to the GitHub username(s)
 # who own that section. PRs touching these files will
 # automatically request reviews from the listed owners.
-#
-# Replace placeholder usernames with your actual GitHub handles.
 # ============================================================
 
-# Project Management (PM / Member A)
-/01-project-management/                @member-a
-/05-minutes/                           @member-a
+# Project Management (PM / Afsah)
+/01-project-management/                @NAME0x0
+/05-minutes/                           @NAME0x0
 
-# Research
-/02-research/                          @member-b @member-c
+# Research (Jake + Eeshitha)
+/02-research/                          @JakeSajith @Eeshitha-afk
 
-# Family Home Design (Member B)
-/03-designs/family-home.md             @member-b
+# Family Home Design (Jake)
+/03-designs/family-home.md             @JakeSajith
 
-# Sheltered Accommodation Design (Member C)
-/03-designs/sheltered-accommodation.md @member-c
+# Sheltered Accommodation Design (Eeshitha)
+/03-designs/sheltered-accommodation.md @Eeshitha-afk
 
-# Starter Home Design & Costing (Member D)
-/03-designs/starter-home.md            @member-d
-/03-designs/estate-cost-summary.md     @member-d
-/03-designs/additional-features.md     @member-d
+# Starter Home Design & Costing (Syed)
+/03-designs/starter-home.md            @Syed-Nihaal
+/03-designs/estate-cost-summary.md     @Syed-Nihaal
+/03-designs/additional-features.md     @Syed-Nihaal
 
 # Diagrams — owned by the relevant designer
-/04-diagrams/                          @member-b @member-c @member-d
+/04-diagrams/                          @JakeSajith @Eeshitha-afk @Syed-Nihaal
 
 # Reflective Diaries — each member owns their own
-/06-reflective-diaries/                @member-a @member-b @member-c @member-d
+/06-reflective-diaries/                @NAME0x0 @JakeSajith @Eeshitha-afk @Syed-Nihaal
 
-# Appendices (Member D compiles)
-/07-appendices/                        @member-d
+# Appendices (Syed compiles)
+/07-appendices/                        @Syed-Nihaal
 
 # Final Report — Report Editor reviews all changes
-/08-final-report/                      @member-a
+/08-final-report/                      @NAME0x0
+
+# Reference Materials — PM maintains
+/09-references/                        @NAME0x0
 
 # Repository configuration — PM approves
-/.github/                              @member-a
-/README.md                             @member-a
-/CONTRIBUTING.md                       @member-a
+/.github/                              @NAME0x0
+/.cspell.json                          @NAME0x0
+/.markdownlint.json                    @NAME0x0
+/.gitignore                            @NAME0x0
+/README.md                             @NAME0x0
+/CONTRIBUTING.md                       @NAME0x0
+/CLAUDE.md                             @NAME0x0

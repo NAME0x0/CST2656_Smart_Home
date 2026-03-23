@@ -3,3 +3,6 @@ contact_links:
   - name: Module Handbook
     url: https://github.com/NAME0x0/CST2656_Smart_Home/wiki
     about: Check the project wiki for guidelines and reference material
+  - name: Marking Criteria
+    url: https://github.com/NAME0x0/CST2656_Smart_Home/blob/main/09-references/marking-criteria.md
+    about: Review marking criteria and grade descriptors before submission

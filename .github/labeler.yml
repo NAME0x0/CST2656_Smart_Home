@@ -1,0 +1,47 @@
+# Auto-label PRs based on which files are changed
+# Used by .github/workflows/auto-label.yml
+
+pm-artefact:
+  - changed-files:
+      - any-glob-to-any-file: '01-project-management/**'
+
+research:
+  - changed-files:
+      - any-glob-to-any-file: '02-research/**'
+
+family-home:
+  - changed-files:
+      - any-glob-to-any-file: '03-designs/family-home.md'
+
+sheltered:
+  - changed-files:
+      - any-glob-to-any-file: '03-designs/sheltered-accommodation.md'
+
+starter-home:
+  - changed-files:
+      - any-glob-to-any-file: '03-designs/starter-home.md'
+
+costing:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '03-designs/estate-cost-summary.md'
+          - '03-designs/additional-features.md'
+
+diagrams:
+  - changed-files:
+      - any-glob-to-any-file: '04-diagrams/**'
+
+report:
+  - changed-files:
+      - any-glob-to-any-file: '08-final-report/**'
+
+ci-cd:
+  - changed-files:
+      - any-glob-to-any-file: '.github/**'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'README.md'
+          - 'CONTRIBUTING.md'
+          - 'CLAUDE.md'

@@ -8,11 +8,10 @@ body:
       label: Project Stage
       description: Which PRINCE2 stage does this task belong to?
       options:
-        - "Stage 1: Initiation (Weeks 1-2)"
-        - "Stage 2: Research (Weeks 3-4)"
-        - "Stage 3: Design (Weeks 5-6)"
-        - "Stage 4: Delivery (Weeks 7-8)"
-        - "Stage 5: Presentation (Week 12)"
+        - "Stage 1: Initiation (Week 8)"
+        - "Stage 2: Research (Week 9)"
+        - "Stage 3: Design (Weeks 10-11)"
+        - "Stage 4: Delivery & Presentation (Week 12)"
     validations:
       required: true
 
@@ -64,7 +63,7 @@ body:
     attributes:
       label: Due Date
       description: When must this be completed?
-      placeholder: "e.g. End of Week 4 (04/04/2026)"
+      placeholder: "e.g. End of Week 9 (04/04/2026)"
     validations:
       required: true
 

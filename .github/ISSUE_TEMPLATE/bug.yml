@@ -1,0 +1,55 @@
+name: Bug / Issue
+description: Report a problem with a document, workflow, or configuration
+labels: ["bug"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Affected File
+      placeholder: "e.g. 03-designs/family-home.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's Wrong?
+      description: Describe the issue — incorrect data, broken formatting, missing content, etc.
+      placeholder: "e.g. The cost table in Section 4.1 shows USD instead of GBP"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What Should It Be?
+      description: Describe the correct state or expected content.
+      placeholder: "All prices should be in GBP with UK retailer sources."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Issue Category
+      options:
+        - "Incorrect data / wrong figures"
+        - "Broken formatting / rendering"
+        - "Missing content"
+        - "Broken link or reference"
+        - "Spelling / grammar"
+        - "Workflow / CI failure"
+        - "Other"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - "Low — cosmetic or minor"
+        - "Medium — incorrect but not blocking"
+        - "High — blocks other work or affects marking"
+    validations:
+      required: true

@@ -3,7 +3,7 @@
 ## Smart Home Consulting Project — CST2565
 
 **Version:** 1.0
-**Date:** [Week 1 Date]
+**Date:** [Week 8 Date]
 
 ---
 
@@ -17,8 +17,8 @@
 │   ├── 1.1.2  Work Breakdown Structure (WBS)
 │   ├── 1.1.3  Gantt Chart
 │   ├── 1.1.4  4-Fields Map
-│   ├── 1.1.5  Weekly Formal Meeting Minutes (Weeks 1–8)
-│   ├── 1.1.6  Individual Reflective Diaries (all members, Weeks 1–8)
+│   ├── 1.1.5  Weekly Formal Meeting Minutes (Weeks 8–12)
+│   ├── 1.1.6  Individual Reflective Diaries (all members, Weeks 8–12)
 │   └── 1.1.7  Tutor Sign-Off on PID and Plan
 │
 ├── 1.2  RESEARCH AND INFORMATION GATHERING
@@ -130,21 +130,21 @@
 
 | WBS Code | Work Package | Description | Owner | Estimated Duration |
 |---|---|---|---|---|
-| 1.1.1 | PID | Full Project Initiation Document with all 12 sections | [Member A] | Week 1 |
-| 1.1.2 | WBS | This document; hierarchical deliverables breakdown | [Member B] | Week 1-2 |
-| 1.1.3 | Gantt Chart | Scheduled timeline with dependencies and milestones | [Member A] | Week 2 |
-| 1.1.4 | 4-Fields Map | Task/owner/deadline/quality-standard matrix | [Member A] | Week 2 |
-| 1.2.1 | Platform Review | Comparison of 3+ ecosystems on defined criteria | [Member B] | Week 3 |
-| 1.2.2 | Device Survey | Categorised survey of all relevant device types | All | Weeks 3-4 |
-| 1.2.3 | Protocols Research | Technical comparison of Zigbee, Z-Wave, Thread, Wi-Fi, BLE | [Member B] | Week 3 |
-| 1.2.4 | Security Research | Authentication, encryption, GDPR, incident response | [Member C] | Week 4 |
-| 1.2.5 | Regulatory Research | UK building regs, Ofgem, BS 8300, UKCA | [Member A] | Week 4 |
-| 1.3 | Family Home Design | Complete design package for 4-bed homes | [Member B] | Week 5 |
-| 1.4 | Sheltered Accommodation Design | Complete design package incl. assistive tech | [Member C] | Week 5-6 |
-| 1.5 | Starter Home Design | Cost-optimised design with essential/optional tiers | [Member D] | Week 5-6 |
-| 1.6 | Cost-Benefit Analysis | ROI calculations, tangible/intangible benefits | [Member D] | Week 6 |
-| 1.7 | Report Production | All written sections, formatting, proofreading | All | Weeks 7-8 |
-| 1.8 | Presentation | Slides, rehearsal, delivery | All | Week 8 + Week 12 |
+| 1.1.1 | PID | Full Project Initiation Document with all 13 sections | Afsah | Week 8 |
+| 1.1.2 | WBS | This document; hierarchical deliverables breakdown | Jake | Week 8 |
+| 1.1.3 | Gantt Chart | Scheduled timeline with dependencies and milestones | Afsah | Week 8 |
+| 1.1.4 | 4-Fields Map | Task/owner/deadline/quality-standard matrix | Afsah | Week 8 |
+| 1.2.1 | Platform Review | Comparison of 3+ ecosystems on defined criteria | Jake | Week 9 |
+| 1.2.2 | Device Survey | Categorised survey of all relevant device types | All | Week 9 |
+| 1.2.3 | Protocols Research | Technical comparison of Zigbee, Z-Wave, Thread, Wi-Fi, BLE | Jake | Week 9 |
+| 1.2.4 | Security Research | Authentication, encryption, GDPR, incident response | Eeshitha | Week 9 |
+| 1.2.5 | Regulatory Research | UK building regs, Ofgem, BS 8300, UKCA | Afsah | Week 9 |
+| 1.3 | Family Home Design | Complete design package for 4-bed homes | Jake | Week 10 |
+| 1.4 | Sheltered Accommodation Design | Complete design package incl. assistive tech | Eeshitha | Weeks 10-11 |
+| 1.5 | Starter Home Design | Cost-optimised design with essential/optional tiers | Syed | Weeks 10-11 |
+| 1.6 | Cost-Benefit Analysis | ROI calculations, tangible/intangible benefits | Syed | Week 11 |
+| 1.7 | Report Production | All written sections, formatting, proofreading | All | Week 12 |
+| 1.8 | Presentation | Slides, rehearsal, delivery | All | Week 12 |
 
 ---
 

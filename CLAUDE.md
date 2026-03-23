@@ -63,6 +63,21 @@ All homes have solar panels pre-installed by the architect.
 - **Protocol priority:** Matter > Zigbee > Z-Wave > Wi-Fi > Bluetooth LE
 - **Fire safety:** FireAngel Pro Connected (family/starter), Grade A system (sheltered)
 
+## Marking Criteria Summary
+
+| Component | Marks | Focus |
+|---|---|---|
+| Seminar Tutor's individual mark | 20 | Weekly attendance, verbal reports, reflective diary, git contributions |
+| **Presentation** | **40** | 5 criteria below |
+| (a) Systems, devices, platforms, protocols, security, policies | 5 | Breadth and accuracy of technical coverage |
+| (b) Recommendation per housing type with rationale | 10 | Persona-driven, justified, diagrammed |
+| (c) PM tools applied (PID, WBS, Gantt, 4-Fields) | 10 | Methodology explanation, not just artefacts pasted |
+| (d) Integration of smart devices + challenges | 5 | Protocol interop, Matter, solar integration |
+| (e) Tangible/intangible benefits + ROI/payback | 10 | Energy savings, insurance, care costs, payback years |
+| **Report** | **40** | 8 sections × 5 marks each (TNR 11pt, justified, max 20 pages) |
+
+See `09-references/marking-criteria.md` for full grade descriptors and self-assessment checklist.
+
 ## When Helping with This Project
 
 1. Always use UK English spelling

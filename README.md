@@ -67,12 +67,16 @@ CST2565_Smart_Home/
 ├── 05-minutes/                    # Weekly formal meeting minutes
 │   └── TEMPLATE.md                # Meeting minutes template
 ├── 06-reflective-diaries/         # Individual reflective diaries (one per member)
-│   └── TEMPLATE.md                # 8-week diary template
+│   └── TEMPLATE.md                # 5-week diary template (Weeks 8–12)
 ├── 07-appendices/                 # Supporting evidence
 │   ├── datasheets/                # Product datasheets (PDF)
 │   └── price-screenshots/         # Dated price screenshots (PNG)
 ├── 08-final-report/               # Final assembled report
 │   └── report.md                  # Report source — pandoc converts to DOCX/PDF
+│
+├── 09-references/                 # Project briefs, marking criteria, reference material
+│   ├── project-brief.md           # Original coursework brief (from module spec)
+│   └── marking-criteria.md        # Marking scheme, grade descriptors, self-assessment
 │
 ├── .cspell.json                   # Custom dictionary for spell checker
 ├── .gitignore                     # Excludes OS files, build output, IDE folders
@@ -88,10 +92,10 @@ CST2565_Smart_Home/
 
 | Member | Role | Primary Files | GitHub Handle |
 |---|---|---|---|
-| [Member A] | Project Manager / Report Editor | `01-project-management/`, `05-minutes/`, intro, conclusion | `@member-a` |
-| [Member B] | Technical Lead — Family Homes | `03-designs/family-home.md`, protocol research, diagrams | `@member-b` |
-| [Member C] | Technical Lead — Sheltered Accommodation | `03-designs/sheltered-accommodation.md`, security research | `@member-c` |
-| [Member D] | Technical Lead — Starter Homes & Costing | `03-designs/starter-home.md`, cost summary, appendices | `@member-d` |
+| Afsah | Project Manager / Report Editor | `01-project-management/`, `05-minutes/`, intro, conclusion | `@NAME0x0` |
+| Jake | Technical Lead — Family Homes | `03-designs/family-home.md`, protocol research, diagrams | `@JakeSajith` |
+| Eeshitha | Technical Lead — Sheltered Accommodation | `03-designs/sheltered-accommodation.md`, security research | `@Eeshitha-afk` |
+| Syed | Technical Lead — Starter Homes & Costing | `03-designs/starter-home.md`, cost summary, appendices | `@Syed-Nihaal` |
 
 > **Rule:** Do not edit another member's files directly. Open a GitHub Issue to discuss changes. The [CODEOWNERS](.github/CODEOWNERS) file automatically requests reviews from file owners when a PR touches their files.
 
@@ -134,7 +138,7 @@ Every team member commits under their own GitHub account. The following tools pr
 - **`git blame`** — shows who wrote each line of every file
 - **GitHub contributor graph** — visual breakdown of commits per member
 - **PR history** — records who reviewed and approved changes
-- **Commit timeline** — shows consistent contribution across all 8 weeks
+- **Commit timeline** — shows consistent contribution across all 5 weeks
 
 ---
 
@@ -197,6 +201,36 @@ git push origin v0.1-draft
 
 **Configuration:** `.cspell.json` at the repo root. Add new technical terms to the `words` array if the spell checker flags legitimate product names.
 
+### Check Links (`link-checker.yml`)
+
+**Trigger:** Every push or PR to `main` that changes `.md` files + weekly Monday scan
+
+**What it does:** Uses [lychee](https://github.com/lycheeverse/lychee) to find broken internal and external links across all Markdown files.
+
+### Report Word Count (`word-count.yml`)
+
+**Trigger:** Every push or PR that changes `08-final-report/report.md`
+
+**What it does:** Counts words in the report, estimates page count (TNR 11pt ≈ 250 words/page), and **fails the check if the 20-page limit is exceeded**. Results appear in the Actions step summary.
+
+### Auto Label PRs (`auto-label.yml`)
+
+**Trigger:** Every PR opened or updated
+
+**What it does:** Automatically labels PRs based on which files were changed (e.g., `family-home`, `research`, `pm-artefact`, `ci-cd`). Configuration in `.github/labeler.yml`.
+
+### Stale Issues & PRs (`stale.yml`)
+
+**Trigger:** Weekly Monday scan
+
+**What it does:** Marks issues and PRs as `stale` after 7 days of inactivity. Auto-closes after 3 more days unless activity resumes. Issues labelled `critical-path` or `blocked` are exempt.
+
+### Contributor Activity (`contributor-activity.yml`)
+
+**Trigger:** Weekly Friday report + manual dispatch
+
+**What it does:** Generates a per-member contribution summary showing commits, files changed, and lines added/removed for the past 7 days, plus all-time totals. This supports the **20% individual contribution** marking criterion by providing auditable weekly evidence.
+
 ---
 
 ## Issue Templates
@@ -208,6 +242,9 @@ When creating a new issue, GitHub presents three structured templates:
 | **Task** | Creating a work package from the WBS — includes project stage, WBS code, housing type, acceptance criteria, priority, and due date |
 | **Research** | Assigning an investigation task — includes research questions, output file, and suggested sources |
 | **Review Request** | Asking a teammate to review your section — includes review type (accuracy, completeness, formatting, referencing) |
+| **Bug / Issue** | Reporting a problem — incorrect data, broken formatting, workflow failure, or missing content |
+| **Meeting Agenda** | Preparing a formal or informal weekly meeting — pre-filled agenda items and preparation checklist |
+| **Weekly Status** | Individual weekly check-in — completed tasks, next week's plan, blockers, and on-track confidence |
 
 All templates use **GitHub Issue Forms** (YAML) for structured, consistent data entry.
 
@@ -233,11 +270,10 @@ Issues are grouped into milestones matching the PRINCE2 stages defined in the PI
 
 | Milestone | Target | Key Deliverables |
 |---|---|---|
-| **Stage 1: Initiation** | End of Week 2 | PID, WBS, Gantt chart, 4-Fields Map, tutor sign-off |
-| **Stage 2: Research** | End of Week 4 | Platform comparison, device survey, regulatory research |
-| **Stage 3: Design** | End of Week 6 | All three housing designs, cost tables, solar integration |
-| **Stage 4: Delivery** | End of Week 8 | Complete report draft, peer review, formatting |
-| **Stage 5: Presentation** | Week 12 | Slides, rehearsal, delivery |
+| **Stage 1: Initiation** | End of Week 8 | PID, WBS, Gantt chart, 4-Fields Map, tutor sign-off |
+| **Stage 2: Research** | End of Week 9 | Platform comparison, device survey, regulatory research |
+| **Stage 3: Design** | End of Week 11 | All three housing designs, cost tables, solar integration |
+| **Stage 4: Delivery & Presentation** | End of Week 12 | Complete report draft, peer review, formatting, slides, delivery |
 
 Create milestones on GitHub: **Issues** > **Milestones** > **New Milestone**. Assign each issue to the appropriate milestone to track stage completion percentage.
 
@@ -251,7 +287,7 @@ The [CODEOWNERS](.github/CODEOWNERS) file maps file paths to GitHub usernames. W
 - Review requests are assigned without manual effort
 - Ownership is transparent and documented
 
-> Update the `@member-a` / `@member-b` / etc. placeholders with real GitHub usernames after team formation.
+> File ownership is configured in [CODEOWNERS](.github/CODEOWNERS) with each member's GitHub username.
 
 ---
 
@@ -313,13 +349,27 @@ pandoc report.md -o report.pdf --from=gfm --to=pdf --toc --number-sections \
 
 | Milestone | Date | Status |
 |---|---|---|
-| PID / WBS / Gantt / 4-Fields complete | End of Week 2 | |
-| Tutor sign-off (Stage Gate) | End of Week 2 | |
-| Research phase complete | End of Week 4 | |
-| All designs and cost tables complete | End of Week 6 | |
-| Report draft complete | Week 8 | |
+| PID / WBS / Gantt / 4-Fields complete | End of Week 8 | |
+| Tutor sign-off (Stage Gate) | End of Week 8 | |
+| Research phase complete | End of Week 9 | |
+| All designs and cost tables complete | End of Week 11 | |
+| Report draft complete | End of Week 12 | |
 | **Final report submitted** | **24 April 2026** | |
 | **Group presentation** | **20-24 April 2026** | |
+
+---
+
+## Marking Criteria
+
+The full marking scheme is in [`09-references/marking-criteria.md`](09-references/marking-criteria.md). Summary:
+
+| Component | Marks | Key Focus |
+|---|---|---|
+| Seminar Tutor's individual mark | 20 | Attendance, weekly verbal reports, reflective diary, git contributions |
+| Group Presentation | 40 | 5 criteria: systems/devices (5), recommendations (10), PM tools (10), integration (5), benefits/ROI (10) |
+| Group Report | 40 | 8 sections × 5 marks: intro, brainstorming, PM artefacts, designs, costing, additional features, conclusion, appendix |
+
+**Report format:** Times New Roman 11pt, justified, max 20 pages (excl. diagrams/images/screenshots)
 
 ---
 

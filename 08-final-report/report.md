@@ -24,7 +24,7 @@
 
 ## 1. Introduction, Project Brief, and Consideration of Stakeholders
 
-<!-- [Member A] writes this section -->
+<!-- Afsah writes this section -->
 <!-- Include: project context, the brief in your own words, stakeholder analysis table -->
 <!-- See: 01-project-management/PID.md Sections 1 and 6 for source content -->
 
@@ -32,7 +32,7 @@
 
 ## 2. Brainstorming and Consideration of Possible Platforms
 
-<!-- [Member A] writes this section -->
+<!-- Afsah writes this section -->
 <!-- Include: how the group brainstormed, platform comparison (Google/Amazon/Apple/Matter), -->
 <!-- how platforms were shortlisted, reference to meeting minutes where decisions were made -->
 <!-- See: 02-research/technical-research.md Section 1 for platform data -->
@@ -41,7 +41,7 @@
 
 ## 3. Project Management Artefacts
 
-<!-- [Member A] writes this section -->
+<!-- Afsah writes this section -->
 <!-- Include: methodology justification (PRINCE2-aligned waterfall), -->
 <!-- PID summary, WBS (tree diagram as image), Gantt chart (as image), 4-Fields Map excerpt -->
 <!-- EXPLAIN what each artefact is, why you used it, and how it helped — don't just paste them -->
@@ -53,21 +53,21 @@
 
 ### 4.1 Four-Bedroom Family Homes (×6)
 
-<!-- [Member B] writes this section -->
+<!-- Jake writes this section -->
 <!-- Include: user persona, platform selection + rationale, device recommendations table, -->
 <!-- solar integration design, network architecture diagram, itemised cost table -->
 <!-- See: 03-designs/family-home.md for source content -->
 
 ### 4.2 Sheltered Accommodation (14 Residents + Warden)
 
-<!-- [Member C] writes this section -->
+<!-- Eeshitha writes this section -->
 <!-- Include: user personas (resident + warden), assistive technology rationale, -->
 <!-- platform selection, warden monitoring, device table, network diagram, cost table -->
 <!-- See: 03-designs/sheltered-accommodation.md for source content -->
 
 ### 4.3 Two-Bedroom Starter Homes (×8)
 
-<!-- [Member D] writes this section -->
+<!-- Syed writes this section -->
 <!-- Include: user persona, essential vs optional tiers, platform selection, -->
 <!-- device table, network diagram, cost table for both tiers -->
 <!-- See: 03-designs/starter-home.md for source content -->
@@ -76,7 +76,7 @@
 
 ## 5. Costing of the Technology
 
-<!-- [Member D] writes this section -->
+<!-- Syed writes this section -->
 <!-- Include: consolidated estate-wide cost summary table, -->
 <!-- cost per housing type, cost per unit, grand total -->
 <!-- See: 03-designs/estate-cost-summary.md for source content -->
@@ -85,7 +85,7 @@
 
 ## 6. Additional Desirable Features
 
-<!-- [Member D] writes this section -->
+<!-- Syed writes this section -->
 <!-- Include: practical upgrades (Tier 1) and emerging technology (Tier 2 — robotics), -->
 <!-- each with description, price, and benefit -->
 <!-- See: 03-designs/additional-features.md for source content -->
@@ -94,7 +94,7 @@
 
 ## 7. Review and Conclusion
 
-<!-- [Member A] writes this section -->
+<!-- Afsah writes this section -->
 <!-- Include: summary of recommendations, key findings, lessons learned, -->
 <!-- what worked in the project, what could be improved, final recommendation to the architect -->
 <!-- Do NOT introduce new information here -->
@@ -103,7 +103,7 @@
 
 ## 8. Appendix
 
-<!-- [Member D] compiles this section -->
+<!-- Syed compiles this section -->
 <!-- Include: full datasheets, price source screenshots, protocol comparison table, -->
 <!-- detailed device specifications, full reference list -->
 <!-- See: 07-appendices/ for source files -->

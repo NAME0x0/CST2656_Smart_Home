@@ -60,6 +60,6 @@ body:
     id: due-date
     attributes:
       label: Due Date
-      placeholder: "e.g. End of Week 3"
+      placeholder: "e.g. End of Week 9"
     validations:
       required: true

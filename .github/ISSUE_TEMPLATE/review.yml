@@ -36,6 +36,6 @@ body:
     id: due-date
     attributes:
       label: Review Needed By
-      placeholder: "e.g. End of Week 7"
+      placeholder: "e.g. End of Week 12"
     validations:
       required: true

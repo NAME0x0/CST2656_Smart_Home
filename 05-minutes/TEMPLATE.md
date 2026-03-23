@@ -11,35 +11,35 @@
 
 | Name | Present | Late | Absent |
 |---|---|---|---|
-| [Member A] | | | |
-| [Member B] | | | |
-| [Member C] | | | |
-| [Member D] | | | |
+| Afsah | | | |
+| Jake | | | |
+| Eeshitha | | | |
+| Syed | | | |
 | Seminar Tutor | | | |
 
 ---
 
 ## Progress Updates
 
-### [Member A]
+### Afsah
 
 - Completed:
 - In progress:
 - Blockers:
 
-### [Member B]
+### Jake
 
 - Completed:
 - In progress:
 - Blockers:
 
-### [Member C]
+### Eeshitha
 
 - Completed:
 - In progress:
 - Blockers:
 
-### [Member D]
+### Syed
 
 - Completed:
 - In progress:

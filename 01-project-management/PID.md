@@ -5,7 +5,7 @@
 | Field | Detail |
 |---|---|
 | **Document Version** | 1.0 |
-| **Date Created** | [INSERT DATE - Week 1] |
+| **Date Created** | [INSERT DATE - Week 8] |
 | **Last Revised** | [INSERT DATE] |
 | **Module** | CST2565 - Compliance and Professional Project Management |
 | **Academic Year** | 2025/26 |
@@ -14,17 +14,17 @@
 
 | Name | Role | Contact |
 |---|---|---|
-| [Member A] | Project Manager / [Technical Area] | [Email] |
-| [Member B] | [Role] / [Technical Area] | [Email] |
-| [Member C] | [Role] / [Technical Area] | [Email] |
-| [Member D] | [Role] / [Technical Area] | [Email] |
+| Afsah | Project Manager / [Technical Area] | [Email] |
+| Jake | [Role] / [Technical Area] | [Email] |
+| Eeshitha | [Role] / [Technical Area] | [Email] |
+| Syed | [Role] / [Technical Area] | [Email] |
 
 ### Version History
 
 | Version | Date | Author | Changes |
 |---|---|---|---|
-| 1.0 | [Week 1 Date] | [Name] | Initial PID created |
-| 1.1 | [Week 2 Date] | [Name] | Updated after tutor feedback |
+| 1.0 | [Week 8 Date] | Afsah | Initial PID created |
+| 1.1 | [Week 9 Date] | Afsah | Updated after tutor feedback |
 
 ---
 
@@ -78,8 +78,8 @@ The team evaluated four candidate methodologies — Waterfall, Agile (Scrum), Hy
 | PRINCE2 Concept | Application in This Project |
 |---|---|
 | **Project Initiation Document** | This document — the formal authorisation and reference point for the project |
-| **Manage by Stages** | Four defined stages: Initiation (Weeks 1–2), Research (Weeks 3–4), Design (Weeks 5–6), Delivery (Weeks 7–8+) |
-| **Stage Gates** | Tutor sign-off at end of Week 2 authorises transition from Initiation to Research; milestone reviews at the end of each stage |
+| **Manage by Stages** | Four defined stages: Initiation (Week 8), Research (Week 9), Design (Weeks 10–11), Delivery & Presentation (Week 12) |
+| **Stage Gates** | Tutor sign-off at end of Week 8 authorises transition from Initiation to Research; milestone reviews at the end of each stage |
 | **Manage by Exception** | If a task slips beyond its planned completion, the deviation is escalated at the next formal meeting, minuted, and the plan is formally updated. Only significant deviations are escalated to the tutor |
 | **Defined Roles and Responsibilities** | Project Manager, Technical Leads, Report Editor — each with clear accountability (see Section 10: Roles and Responsibilities) |
 | **Business Case** | The cost-benefit analysis and ROI calculations in the report serve this function, justifying the smart home investment to the architectural firm |
@@ -96,37 +96,34 @@ While the primary methodology is PRINCE2-aligned Waterfall, the following practi
 | **Kanban board** | Visual task tracking using GitHub Projects (Board view) with columns: To Do, In Progress, Review, Done. Updated at each meeting via GitHub Issues |
 | **Weekly progress updates** | Each team member reports on completed work and blockers at the formal weekly meeting — functionally equivalent to a stand-up |
 | **Iterative reflection** | Individual reflective diaries capture lessons learned throughout the project, not only at the end — aligning with the Agile principle of continuous improvement |
-| **Timeboxing** | Each project stage has a fixed 2-week duration. If work cannot be completed within the timebox, scope is adjusted (e.g., reducing research depth) rather than extending the deadline |
+| **Timeboxing** | Each project stage has a fixed duration (1–2 weeks). If work cannot be completed within the timebox, scope is adjusted (e.g., reducing research depth) rather than extending the deadline |
 
 #### Project Stages
 
 ```
-Stage 1: INITIATION (Weeks 1–2)
+Stage 1: INITIATION (Week 8)
   ├── Brainstorming and stakeholder analysis
   ├── PID, WBS, Gantt chart, 4-Fields Map
   └── STAGE GATE: Tutor sign-off ◆
 
-Stage 2: RESEARCH (Weeks 3–4)
+Stage 2: RESEARCH (Week 9)
   ├── Platform and protocol research
   ├── Device survey (all categories)
   ├── Security, regulatory, and standards research
   └── MILESTONE: Research phase complete ◆
 
-Stage 3: DESIGN (Weeks 5–6)
+Stage 3: DESIGN (Weeks 10–11)
   ├── Family home design and costing
   ├── Sheltered accommodation design and costing
   ├── Starter home design and costing
   ├── Cost-benefit analysis and additional features
   └── MILESTONE: All designs complete ◆
 
-Stage 4: DELIVERY (Weeks 7–8)
+Stage 4: DELIVERY & PRESENTATION (Week 12)
   ├── Report writing (all sections)
   ├── Peer review, formatting, and proofreading
   ├── Presentation preparation and rehearsal
   └── MILESTONE: Report submitted (24 April 2026) ◆
-
-Stage 5: PRESENTATION (Week 12)
-  └── Final group presentation delivery ◆
 ```
 
 ---
@@ -135,17 +132,17 @@ Stage 5: PRESENTATION (Week 12)
 
 All objectives follow the SMART framework (Specific, Measurable, Achievable, Relevant, Time-bound):
 
-1. **Platform Evaluation:** Identify and compare a minimum of 3 smart home platform ecosystems (e.g., Google Home, Amazon Alexa, Apple HomeKit, Matter/Thread) against criteria of interoperability, cost, security, and accessibility, by the end of Week 3.
+1. **Platform Evaluation:** Identify and compare a minimum of 3 smart home platform ecosystems (e.g., Google Home, Amazon Alexa, Apple HomeKit, Matter/Thread) against criteria of interoperability, cost, security, and accessibility, by the end of Week 9.
 
-2. **Family Home Design:** Produce a costed smart home specification for the 4-bedroom family homes, including platform selection, device recommendations, network architecture diagram, and itemised cost table in GBP, by the end of Week 5.
+2. **Family Home Design:** Produce a costed smart home specification for the 4-bedroom family homes, including platform selection, device recommendations, network architecture diagram, and itemised cost table in GBP, by the end of Week 10.
 
-3. **Sheltered Accommodation Design:** Evaluate and recommend appropriate fall-detection, emergency response, warden monitoring, and independent-living technologies for the sheltered accommodation block housing 14 elderly residents, with full costing, by the end of Week 6.
+3. **Sheltered Accommodation Design:** Evaluate and recommend appropriate fall-detection, emergency response, warden monitoring, and independent-living technologies for the sheltered accommodation block housing 14 elderly residents, with full costing, by the end of Week 11.
 
-4. **Starter Home Design:** Produce a cost-optimised smart home specification for the 2-bedroom starter homes, distinguishing essential features from optional upgrades, with full costing, by the end of Week 6.
+4. **Starter Home Design:** Produce a cost-optimised smart home specification for the 2-bedroom starter homes, distinguishing essential features from optional upgrades, with full costing, by the end of Week 11.
 
-5. **Solar Integration:** For all three housing types, design and document how solar panel output data can be integrated with smart home devices to optimise energy usage (e.g., triggering appliances when surplus energy is available), by the end of Week 6.
+5. **Solar Integration:** For all three housing types, design and document how solar panel output data can be integrated with smart home devices to optimise energy usage (e.g., triggering appliances when surplus energy is available), by the end of Week 11.
 
-6. **Security Analysis:** Document authentication, encryption, and data privacy considerations for all recommended systems, including incident response and recovery plans, by the end of Week 6.
+6. **Security Analysis:** Document authentication, encryption, and data privacy considerations for all recommended systems, including incident response and recovery plans, by the end of Week 11.
 
 7. **Report Delivery:** Produce a complete group report of no more than 20 pages (Times New Roman 11pt, justified) with full referencing, table of contents, and appendices, submitted by 24th April 2026.
 
@@ -186,11 +183,11 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 
 | Deliverable | Format | Due |
 |---|---|---|
-| Project Initiation Document (this document) | Word/PDF | Week 1 |
-| Work Breakdown Structure | Indented list + tree diagram | Week 2 |
-| Gantt Chart | MS Project / Excel | Week 2 |
-| 4-Fields Map | Table (Word/Excel) | Week 2 |
-| Weekly Meeting Minutes | Word document per meeting | Weeks 1-8 |
+| Project Initiation Document (this document) | Word/PDF | Week 8 |
+| Work Breakdown Structure | Indented list + tree diagram | Week 8 |
+| Gantt Chart | MS Project / Excel | Week 8 |
+| 4-Fields Map | Table (Word/Excel) | Week 8 |
+| Weekly Meeting Minutes | Word document per meeting | Weeks 8-12 |
 | Individual Reflective Diaries | Personal document per member | Ongoing, shown weekly |
 | Group Technical Report | Word, TNR 11pt, max 20 pages + appendices | 24 April 2026 |
 | Group Presentation | PowerPoint / slides | 20-24 April 2026 |
@@ -209,7 +206,7 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 | **First-time Buyers (starter homes)** | End users; affordability, value for money | Low | Upfront cost; future expandability; resale value impact | Cost-optimised design with upgrade path |
 | **Energy Suppliers / Grid** | Smart meter integration; demand response | Low | Interoperability with smart meters; compliance with Ofgem standards | Design incorporates Ofgem-compliant smart metering |
 | **Insurance Providers** | Security systems may affect premiums | Low | Verified security devices; monitoring capability | Selection of insurance-recognised security products where possible |
-| **Local Authority / Building Control** | Regulatory compliance | Medium | Building Regulations Part L, Part P compliance | Regulatory research in Week 4; compliance noted in recommendations |
+| **Local Authority / Building Control** | Regulatory compliance | Medium | Building Regulations Part L, Part P compliance | Regulatory research in Week 9; compliance noted in recommendations |
 | **Seminar Tutor** | Academic assessor; project governance | High | Evidence of PM methodology; weekly progress; individual contributions | Weekly formal meetings; PID sign-off; reflective diaries |
 
 ---
@@ -232,7 +229,7 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 
 | Constraint | Impact |
 |---|---|
-| 8-week project duration | Limits depth of research; requires disciplined prioritisation |
+| 5-week project duration (Weeks 8–12) | Limits depth of research; requires disciplined prioritisation |
 | Group size: 3-4 members | Work must be divided efficiently; all members must contribute equally |
 | Report maximum: 20 pages (excl. diagrams/images/screenshots) | Demands concise writing; detailed data goes in appendices |
 | Costs in GBP only; no installation costs | Simplifies costing but limits accuracy of total project cost |
@@ -249,10 +246,10 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 | R2 | Technology prices change between research and submission date | Low | Medium | Low | Use date-stamped screenshots of pricing; note "prices as of [date]" in cost tables | All |
 | R3 | Smart home platform discontinues product or changes compatibility | Low | Medium | Low | Prefer established, widely-adopted platforms; cite manufacturer roadmaps and Matter/Thread commitment | Technical Leads |
 | R4 | Scope creep into installation design, software development, or infrastructure outside the home | Medium | Medium | **Medium** | Refer to scope exclusions (Section 3); tutor sign-off on PID enforces boundaries | Project Manager |
-| R5 | Group scheduling conflicts reduce informal meeting attendance | High | Low | Medium | Agree all meeting times in Week 1; use shared calendar; virtual meetings as backup | All |
+| R5 | Group scheduling conflicts reduce informal meeting attendance | High | Low | Medium | Agree all meeting times in Week 8; use shared calendar; virtual meetings as backup | All |
 | R6 | IoT security vulnerabilities discovered in recommended products during project | Low | High | Medium | Include incident response plan in report; recommend firmware update policies; note known CVEs | Security Lead |
 | R7 | Insufficient differentiation between the three housing types | Medium | High | **High** | Assign separate team members to each housing type; ensure requirements analysis starts from user personas, not just device lists | Technical Leads |
-| R8 | Report exceeds 20-page limit | Medium | Medium | Medium | Track page count from Week 6; move detailed data to appendices; Report Editor enforces limit | Report Editor |
+| R8 | Report exceeds 20-page limit | Medium | Medium | Medium | Track page count from Week 11; move detailed data to appendices; Report Editor enforces limit | Report Editor |
 | R9 | Interoperability issues between recommended devices from different manufacturers | Medium | Medium | Medium | Prioritise Matter/Thread-compatible devices; test compatibility claims against manufacturer documentation | Technical Leads |
 | R10 | Vendor lock-in: recommending a single-ecosystem approach that limits future flexibility | Medium | Medium | Medium | Evaluate multi-protocol hubs; document lock-in risks in report; recommend open standards where feasible | All |
 
@@ -264,11 +261,11 @@ All objectives follow the SMART framework (Specific, Measurable, Achievable, Rel
 
 | Role | Name | Primary Responsibilities | Technical Area |
 |---|---|---|---|
-| **Project Manager** | [Member A] | Coordinates meetings; maintains WBS/Gantt/4-Fields; writes minutes; manages report timeline; liaison with tutor | Introduction; stakeholder analysis; review & conclusion |
-| **Technical Lead — Family Homes** | [Member B] | Researches platforms, protocols, and devices for 4-bedroom family homes; produces design and cost table | Family home design; protocol comparison; network diagrams |
-| **Technical Lead — Sheltered Accommodation** | [Member C] | Researches assistive technologies, fall detection, warden monitoring for elderly residents; produces design and cost table | Sheltered accommodation design; security research; incident response |
-| **Technical Lead — Starter Homes & Costing** | [Member D] | Researches cost-optimised solutions for 2-bedroom starter homes; consolidates all cost tables; identifies additional features | Starter home design; consolidated costing section; appendix/data sheets |
-| **Report Editor** (shared or rotated) | [Member A or rotated] | Consolidates all sections; enforces formatting (TNR 11, justified); manages references; proofreads | Final formatting; table of contents; reference list |
+| **Project Manager** | Afsah | Coordinates meetings; maintains WBS/Gantt/4-Fields; writes minutes; manages report timeline; liaison with tutor | Introduction; stakeholder analysis; review & conclusion |
+| **Technical Lead — Family Homes** | Jake | Researches platforms, protocols, and devices for 4-bedroom family homes; produces design and cost table | Family home design; protocol comparison; network diagrams |
+| **Technical Lead — Sheltered Accommodation** | Eeshitha | Researches assistive technologies, fall detection, warden monitoring for elderly residents; produces design and cost table | Sheltered accommodation design; security research; incident response |
+| **Technical Lead — Starter Homes & Costing** | Syed | Researches cost-optimised solutions for 2-bedroom starter homes; consolidates all cost tables; identifies additional features | Starter home design; consolidated costing section; appendix/data sheets |
+| **Report Editor** (shared or rotated) | Afsah (rotated) | Consolidates all sections; enforces formatting (TNR 11, justified); manages references; proofreads | Final formatting; table of contents; reference list |
 
 All members contribute to:
 
@@ -315,12 +312,12 @@ All members contribute to:
 
 | Activity | When | Responsible |
 |---|---|---|
-| Peer review of each report section draft | Week 7 | All members review sections they did not write |
-| Cross-check WBS, Gantt, and 4-Fields for consistency | Week 2 and Week 7 | Project Manager |
-| Verify all costs have cited sources and dates | Week 7 | Costing Lead |
-| Check report page count against 20-page limit | Week 7 and Week 8 | Report Editor |
-| Formatting check (TNR 11pt, justified, TOC, references) | Week 8 | Report Editor |
-| Presentation rehearsal (timed) | Week 8 | All |
+| Peer review of each report section draft | Week 12 | All members review sections they did not write |
+| Cross-check WBS, Gantt, and 4-Fields for consistency | Week 8 and Week 12 | Project Manager |
+| Verify all costs have cited sources and dates | Week 11 | Costing Lead |
+| Check report page count against 20-page limit | Week 11 and Week 12 | Report Editor |
+| Formatting check (TNR 11pt, justified, TOC, references) | Week 12 | Report Editor |
+| Presentation rehearsal (timed) | Week 12 | All |
 
 ---
 
@@ -328,10 +325,10 @@ All members contribute to:
 
 | Role | Name | Signature | Date |
 |---|---|---|---|
-| **Group Member** | [Member A] | | |
-| **Group Member** | [Member B] | | |
-| **Group Member** | [Member C] | | |
-| **Group Member** | [Member D] | | |
+| **Group Member** | Afsah | | |
+| **Group Member** | Jake | | |
+| **Group Member** | Eeshitha | | |
+| **Group Member** | Syed | | |
 | **Seminar Tutor** (Approval) | [Tutor Name] | | |
 
 > **Approval confirms:** The project scope, objectives, and plan described in this PID are agreed by all group members and approved by the seminar tutor. Work may proceed.

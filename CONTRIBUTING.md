@@ -103,11 +103,10 @@ Issues are grouped into milestones matching our PRINCE2 stages:
 
 | Milestone | Target Date |
 |---|---|
-| Stage 1: Initiation | End of Week 2 |
-| Stage 2: Research | End of Week 4 |
-| Stage 3: Design | End of Week 6 |
-| Stage 4: Delivery | End of Week 8 |
-| Stage 5: Presentation | Week 12 |
+| Stage 1: Initiation | End of Week 8 |
+| Stage 2: Research | End of Week 9 |
+| Stage 3: Design | End of Week 11 |
+| Stage 4: Delivery & Presentation | End of Week 12 |
 
 ## Pull Requests
 

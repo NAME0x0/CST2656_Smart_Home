@@ -6,203 +6,119 @@
 
 ---
 
-## Week 1 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 2 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 3 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 4 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 5 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 6 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
-## Week 7 — [Date Range]
-
-### What I did this week
-
--
-
-### What the group did this week
-
--
-
-### What went well
-
--
-
-### What could have gone better
-
--
-
-### What I learned
-
--
-
-### Plan for next week
-
--
-
----
-
 ## Week 8 — [Date Range]
+
+### What I did this week
+
+-
+
+### What the group did this week
+
+-
+
+### What went well
+
+-
+
+### What could have gone better
+
+-
+
+### What I learned
+
+-
+
+### Plan for next week
+
+-
+
+---
+
+## Week 9 — [Date Range]
+
+### What I did this week
+
+-
+
+### What the group did this week
+
+-
+
+### What went well
+
+-
+
+### What could have gone better
+
+-
+
+### What I learned
+
+-
+
+### Plan for next week
+
+-
+
+---
+
+## Week 10 — [Date Range]
+
+### What I did this week
+
+-
+
+### What the group did this week
+
+-
+
+### What went well
+
+-
+
+### What could have gone better
+
+-
+
+### What I learned
+
+-
+
+### Plan for next week
+
+-
+
+---
+
+## Week 11 — [Date Range]
+
+### What I did this week
+
+-
+
+### What the group did this week
+
+-
+
+### What went well
+
+-
+
+### What could have gone better
+
+-
+
+### What I learned
+
+-
+
+### Plan for next week
+
+-
+
+---
+
+## Week 12 — [Date Range]
 
 ### What I did this week
 
