@@ -1,0 +1,44 @@
+# ============================================================
+# CODEOWNERS — CST2565 Smart Home Consulting Project
+# ============================================================
+# Each line maps a file pattern to the GitHub username(s)
+# who own that section. PRs touching these files will
+# automatically request reviews from the listed owners.
+#
+# Replace placeholder usernames with your actual GitHub handles.
+# ============================================================
+
+# Project Management (PM / Member A)
+/01-project-management/                @member-a
+/05-minutes/                           @member-a
+
+# Research
+/02-research/                          @member-b @member-c
+
+# Family Home Design (Member B)
+/03-designs/family-home.md             @member-b
+
+# Sheltered Accommodation Design (Member C)
+/03-designs/sheltered-accommodation.md @member-c
+
+# Starter Home Design & Costing (Member D)
+/03-designs/starter-home.md            @member-d
+/03-designs/estate-cost-summary.md     @member-d
+/03-designs/additional-features.md     @member-d
+
+# Diagrams — owned by the relevant designer
+/04-diagrams/                          @member-b @member-c @member-d
+
+# Reflective Diaries — each member owns their own
+/06-reflective-diaries/                @member-a @member-b @member-c @member-d
+
+# Appendices (Member D compiles)
+/07-appendices/                        @member-d
+
+# Final Report — Report Editor reviews all changes
+/08-final-report/                      @member-a
+
+# Repository configuration — PM approves
+/.github/                              @member-a
+/README.md                             @member-a
+/CONTRIBUTING.md                       @member-a

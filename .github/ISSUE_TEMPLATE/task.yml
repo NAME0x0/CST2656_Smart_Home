@@ -1,0 +1,92 @@
+name: Task
+description: A work package from the WBS or a new deliverable task
+labels: ["task"]
+body:
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Project Stage
+      description: Which PRINCE2 stage does this task belong to?
+      options:
+        - "Stage 1: Initiation (Weeks 1-2)"
+        - "Stage 2: Research (Weeks 3-4)"
+        - "Stage 3: Design (Weeks 5-6)"
+        - "Stage 4: Delivery (Weeks 7-8)"
+        - "Stage 5: Presentation (Week 12)"
+    validations:
+      required: true
+
+  - type: input
+    id: wbs-code
+    attributes:
+      label: WBS Code
+      description: Reference code from the Work Breakdown Structure
+      placeholder: "e.g. 3.2.1"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: housing-type
+    attributes:
+      label: Housing Type
+      description: Which housing type does this task relate to?
+      options:
+        - "N/A — Project-wide"
+        - "4-Bed Family Home"
+        - "Sheltered Accommodation"
+        - "2-Bed Starter Home"
+        - "All Housing Types"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: What needs to be done?
+      placeholder: "Describe the task clearly so the assignee can work independently."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this task is complete?
+      placeholder: |
+        - [ ] Criterion 1
+        - [ ] Criterion 2
+    validations:
+      required: true
+
+  - type: input
+    id: due-date
+    attributes:
+      label: Due Date
+      description: When must this be completed?
+      placeholder: "e.g. End of Week 4 (04/04/2026)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: files
+    attributes:
+      label: Files to Create or Edit
+      description: Which repository files does this task affect?
+      placeholder: |
+        - `03-designs/family-home.md`
+        - `07-appendices/datasheets/`
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - "Critical — blocks other work"
+        - "High — on the critical path"
+        - "Medium — important but not blocking"
+        - "Low — nice to have"
+    validations:
+      required: true

@@ -1,0 +1,65 @@
+name: Research
+description: A research task — investigate a topic and document findings
+labels: ["research"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Research Topic
+      placeholder: "e.g. Fall detection technologies for elderly residents"
+    validations:
+      required: true
+
+  - type: textarea
+    id: questions
+    attributes:
+      label: Research Questions
+      description: What specific questions should this research answer?
+      placeholder: |
+        1. What products are available in the UK market?
+        2. What are the price ranges?
+        3. What protocols/standards do they use?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: housing-type
+    attributes:
+      label: Relevant Housing Type
+      options:
+        - "N/A — General"
+        - "4-Bed Family Home"
+        - "Sheltered Accommodation"
+        - "2-Bed Starter Home"
+        - "All Housing Types"
+    validations:
+      required: true
+
+  - type: input
+    id: output-file
+    attributes:
+      label: Output File
+      description: Where should findings be documented?
+      placeholder: "e.g. 02-research/technical-research.md"
+    validations:
+      required: true
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Suggested Sources
+      description: Any known starting points for this research?
+      placeholder: |
+        - Manufacturer websites
+        - UK retailer pricing (Amazon UK, Screwfix, etc.)
+        - Academic papers
+    validations:
+      required: false
+
+  - type: input
+    id: due-date
+    attributes:
+      label: Due Date
+      placeholder: "e.g. End of Week 3"
+    validations:
+      required: true

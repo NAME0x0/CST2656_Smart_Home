@@ -1,0 +1,41 @@
+name: Review Request
+description: Request a peer review of a report section or design document
+labels: ["review"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: Section / File to Review
+      placeholder: "e.g. 03-designs/family-home.md"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: review-type
+    attributes:
+      label: Review Type
+      options:
+        - "Content accuracy — are the facts and figures correct?"
+        - "Completeness — does it cover all required criteria?"
+        - "Formatting — TNR 11pt, justified, within page limits"
+        - "Referencing — Harvard/APA format, all citations present"
+        - "Full review — all of the above"
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context for Reviewer
+      description: What should the reviewer focus on or be aware of?
+      placeholder: "e.g. I'm unsure about the solar integration section — please check the technical accuracy."
+    validations:
+      required: false
+
+  - type: input
+    id: due-date
+    attributes:
+      label: Review Needed By
+      placeholder: "e.g. End of Week 7"
+    validations:
+      required: true
