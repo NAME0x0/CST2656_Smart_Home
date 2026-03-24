@@ -78,6 +78,11 @@ CST2565_Smart_Home/
 │   ├── project-brief.md           # Original coursework brief (from module spec)
 │   └── marking-criteria.md        # Marking scheme, grade descriptors, self-assessment
 │
+├── dashboard/                     # Next.js + shadcn/ui project dashboard (auto-deployed)
+│   ├── app/                       # Pages: overview, gantt, costs, team, milestones
+│   ├── components/                # Gantt chart, cost charts, sidebar, task distribution
+│   └── lib/data.ts                # Project data (tasks, costs, team members)
+│
 ├── .cspell.json                   # Custom dictionary for spell checker
 ├── .gitignore                     # Excludes OS files, build output, IDE folders
 ├── .markdownlint.json             # Markdown linting rules
@@ -224,6 +229,12 @@ git push origin v0.1-draft
 **Trigger:** Weekly Monday scan
 
 **What it does:** Marks issues and PRs as `stale` after 7 days of inactivity. Auto-closes after 3 more days unless activity resumes. Issues labelled `critical-path` or `blocked` are exempt.
+
+### Deploy Dashboard (`deploy-dashboard.yml`)
+
+**Trigger:** Every push to `main` that changes `dashboard/**` files + manual dispatch
+
+**What it does:** Builds the Next.js dashboard as a static site and deploys it to **GitHub Pages**. The live dashboard is available at `https://NAME0x0.github.io/CST2656_Smart_Home/`. Features: interactive Gantt chart, cost breakdowns, team overview, milestone timeline.
 
 ### Contributor Activity (`contributor-activity.yml`)
 

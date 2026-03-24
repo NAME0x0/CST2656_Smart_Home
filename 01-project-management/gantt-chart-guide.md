@@ -70,7 +70,7 @@ Build the chart with the following rows. Summary (parent) rows are **bold**; the
 | 1.7.1 | Write: Introduction & stakeholders | W12 Day 1 | W12 Day 1 | 1 day | Afsah | All Designs Complete |
 | 1.7.2 | Write: Brainstorming & platforms | W12 Day 1 | W12 Day 1 | 1 day | Afsah | All Designs Complete |
 | 1.7.3 | Write: PM Artefacts section | W12 Day 1 | W12 Day 2 | 2 days | Afsah | All Designs Complete |
-| 1.7.4 | Write: Design sections (all 3 types) | W12 Day 1 | W12 Day 2 | 2 days | [B, C, D] | All Designs Complete |
+| 1.7.4 | Write: Design sections (all 3 types) | W12 Day 1 | W12 Day 2 | 2 days | Jake, Eeshitha, Syed | All Designs Complete |
 | 1.7.5 | Write: Costing section | W12 Day 2 | W12 Day 2 | 1 day | Syed | 1.6.1 |
 | 1.7.6 | Write: Additional features section | W12 Day 2 | W12 Day 3 | 2 days | Syed | 1.6.5 |
 | 1.7.7 | Write: Review & conclusion | W12 Day 3 | W12 Day 3 | 1 day | Afsah | 1.7.1–1.7.6 |

@@ -39,6 +39,9 @@
 # Reference Materials — PM maintains
 /09-references/                        @NAME0x0
 
+# Dashboard (Next.js + shadcn) — PM maintains
+/dashboard/                            @NAME0x0
+
 # Repository configuration — PM approves
 /.github/                              @NAME0x0
 /.cspell.json                          @NAME0x0
