@@ -5,8 +5,8 @@
 | Field | Detail |
 |---|---|
 | **Document Version** | 1.0 |
-| **Date Created** | [INSERT DATE - Week 8] |
-| **Last Revised** | [INSERT DATE] |
+| **Date Created** | [25th March, 2026 - Week 8] |
+| **Last Revised** | [25th March, 2026] |
 | **Module** | CST2565 - Compliance and Professional Project Management |
 | **Academic Year** | 2025/26 |
 
