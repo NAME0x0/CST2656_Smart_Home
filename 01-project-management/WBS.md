@@ -3,7 +3,7 @@
 ## Smart Home Consulting Project — CST2565
 
 **Version:** 1.0
-**Date:** [Week 8 Date]
+**Date:** 25th March, 2026
 
 ---
 
