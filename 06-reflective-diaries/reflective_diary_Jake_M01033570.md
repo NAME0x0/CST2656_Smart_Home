@@ -2,38 +2,33 @@
 
 **Module:** CST2565 — Compliance and Professional Project Management
 **Project:** Smart Home Consulting
-**Role:** funni role
+**Role:** Technical Lead - Family Homes   
 
 ---
 
 ## Week 8 — 22nd March, 2026
 
 ### What I did this week
-thingy mabob
--
+WBS DISCUSSION- wip
 
 ### What the group did this week
-thingy mabob
-
+worked on indivdual tasks such as role selection, PID, gant chatt etc wip
 -
 
 ### What went well
-thingy mabob
-
+the tasks wip
 -
 
 ### What could have gone better
-thingy mabob
-
+.
 -
 
 ### What I learned
-thingy mabob
-
+project management insights, more abt wbs, pid wip
 -
 
 ### Plan for next week
-enter
+wip
 -
 
 ---
