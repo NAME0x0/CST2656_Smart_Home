@@ -2,7 +2,7 @@
 
 **Module:** CST2565 — Compliance and Professional Project Management
 **Project:** Smart Home Consulting
-**Role:** Technical Lead - Family Homes   (test )
+**Role:** Technical Lead - Family Homes
 
 ---
 
